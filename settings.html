@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settings</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--To do: Wifi Icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+        <!--Battery Icon-->
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+      </div>
+    </header>
+    <main class="main-screen">
+      <ul class="setting-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa fa-comment fa-lg" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa fa-search fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true">
+              <span class="nav__eli"></span
+            ></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/41f8aa0ec1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

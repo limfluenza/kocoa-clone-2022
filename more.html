@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>More</title>
   </head>
   <body>
     <div class="status-bar">
@@ -27,7 +27,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span>
           <i class="fa fa-search fa-lg" aria-hidden="true"></i>
@@ -36,18 +36,15 @@
           <i class="fa fa-music fa-lg" aria-hidden="true"></i>
         </span>
         <span>
-          <i class="fa fa-cog fa-lg" aria-hidden="true"></i>
+          <div class="point"></div>
+          <a href="settings.html"
+            ><i class="fa fa-cog fa-lg" aria-hidden="true"></i
+          ></a>
         </span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa fa-info-circle fa-xs" aria-hidden="true"> </i>
-      Friends' Names Display
-      <i class="fa fa-chevron-right fa-xs" aria-hidden="true"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -56,33 +53,38 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!--!<h6 class="user-component__subtitle">this text</h6> -->
+            <h6 class="user-component__subtitle">010-7206-6031</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa fa-chevron-up fa-xs" aria-hidden="true"></i>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa fa-calendar" aria-hidden="true"></i><span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="pic.png"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title-not-bold">
-                Channel
-              </h4>
+        <div class="icon-row__icon">
+          <i class="fa fa-smile-o" aria-hidden="true"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa fa-paint-brush" aria-hidden="true"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa fa-money" aria-hidden="true"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
             </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa fa-chevron-right fa-xs" aria-hidden="true"></i>
-            </div>
+            <span class="more-suggestions__icon-text">Kakao Story</span>
           </div>
         </div>
       </div>
@@ -91,15 +93,15 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="fa fa-user fa-lg" aria-hidden="true"></i
-          ></a>
+          <a class="nav__link" href="friends.html">
+            <i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span
-            ><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i
-          ></a>
+            <span class="nav__notification badge">1</span>
+            <i class="fa fa-comment fa-lg" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
@@ -107,16 +109,15 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true">
-              <span class="nav__eli"> </span></i
-          ></a>
+          <a class="nav__link" href="more.html">
+            <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true">
+              <span class="nav__eli"></span
+            ></i>
+          </a>
         </li>
       </ul>
     </nav>
-    <div id="splash-screen">
-      <i class="fa fa-comment fa-lg" aria-hidden="true"></i>
-    </div>
+
     <div id="no-mobile">
       <span>화면이 너무 커요</span>
     </div>
